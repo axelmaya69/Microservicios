@@ -23,6 +23,8 @@ public class ProductController {
     return productRepository.findAll();
     }
 
+    @PostMapping
+    @ResponseStatus(HttpStatus.OK)
     public void createProduct(@RequestBody ProductEntity productEntity){
     productRepository.save(productEntity);
     }
