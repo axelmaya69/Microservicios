@@ -25,4 +25,8 @@ public class ProductController {
     public List<ProductEntity> getAllProducts(){
     return productRepository.findAll();
     }
+
+    public void createProduct(){
+        
+    }
 }
