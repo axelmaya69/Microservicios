@@ -19,7 +19,7 @@ public class ProductController {
     private ProductRepository productRepository;
 
     @GetMapping()
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.OK) //usado para evitar usar el ResponseStatus
     public List<ProductEntity> getAllProducts(){
     return productRepository.findAll();
     }
