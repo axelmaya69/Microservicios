@@ -19,13 +19,13 @@ public class ProductController {
     private ProductRepository productRepository;
 
     @GetMapping()
-    @ResponseStatus(HttpStatus.OK) //usado para evitar usar el ResponseStatus
+    @ResponseStatus(HttpStatus.OK) //usado para evitar usar el ResponseStatus<>
     public List<ProductEntity> getAllProducts(){
     return productRepository.findAll();
     }
 
     @PostMapping
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.OK)//usado para evitar usar el ResponseStatus<>
     public void createProduct(@RequestBody ProductEntity productEntity){
     productRepository.save(productEntity);
     }
