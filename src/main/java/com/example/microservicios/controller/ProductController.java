@@ -24,6 +24,6 @@ public class ProductController {
     }
 
     public void createProduct(@RequestBody ProductEntity productEntity){
-
+    productRepository.save(productEntity);
     }
 }
