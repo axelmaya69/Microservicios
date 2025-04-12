@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//notaciones para decir que hara uso de un crud
 @RestController
 @RequestMapping("/api/products")
 public class ProductController {
