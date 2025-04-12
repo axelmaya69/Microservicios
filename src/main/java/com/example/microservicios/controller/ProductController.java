@@ -11,7 +11,7 @@ import java.util.List;
 
 //notaciones para decir que hara uso de un crud
 @RestController
-@RequestMapping("/api/products")
+@RequestMapping("/api/products") //indica la api personalizada
 public class ProductController {
 
     //Inyectando dependencia
