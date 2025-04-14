@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>microservicios</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservicios</name>
+	<name>microservices</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
