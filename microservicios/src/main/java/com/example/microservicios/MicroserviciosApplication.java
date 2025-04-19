@@ -13,4 +13,5 @@ public class MicroserviciosApplication {
 	}
 	//arreglado
 	//solo habia que recompilar e implementar un mvnclean install
+	//compilar usando java21 de sdk
 }
