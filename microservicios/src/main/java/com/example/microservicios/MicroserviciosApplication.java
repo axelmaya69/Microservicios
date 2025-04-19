@@ -12,4 +12,5 @@ public class MicroserviciosApplication {
 		SpringApplication.run(MicroserviciosApplication.class, args);
 	}
 	//arreglado
+	//solo habia que recompilar e implementar un mvnclean install
 }
