@@ -24,7 +24,7 @@ public class ProductController {
     return productRepository.findAll();
     }
 
-    @PostMapping
+    @PostMapping()
     @ResponseStatus(HttpStatus.OK)//usado para evitar usar el ResponseStatus<>
     public void createProduct(@RequestBody ProductEntity productEntity){
     productRepository.save(productEntity);
