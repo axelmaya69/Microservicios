@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/api/products") //indica la api personalizada
 public class ProductController {
 
-    //Inyectando dependencia
+    //Inyectando dependencia 
     @Autowired
     private ProductRepository productRepository;
 
