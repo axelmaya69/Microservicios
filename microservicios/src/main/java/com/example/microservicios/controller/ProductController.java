@@ -23,7 +23,7 @@ public class ProductController {
     public List<ProductEntity> getAllProducts(){
     return productRepository.findAll();
     }
- 
+  
     @PostMapping()
     @ResponseStatus(HttpStatus.OK)//usado para evitar usar el ResponseStatus<>
     public void createProduct(@RequestBody ProductEntity productEntity){
