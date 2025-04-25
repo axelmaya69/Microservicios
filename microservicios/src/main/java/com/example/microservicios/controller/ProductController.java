@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/api/products") //indica la api personalizada
 public class ProductController {
 
-    //Inyectando dependencia 
+    //Inyectando dependencia
     @Autowired
     private ProductRepository productRepository;
 
@@ -23,7 +23,7 @@ public class ProductController {
     public List<ProductEntity> getAllProducts(){
     return productRepository.findAll();
     }
-
+ 
     @PostMapping()
     @ResponseStatus(HttpStatus.OK)//usado para evitar usar el ResponseStatus<>
     public void createProduct(@RequestBody ProductEntity productEntity){
