@@ -18,6 +18,10 @@ public class ProductController {
     @Autowired
     private ProductRepository productRepository;
 
+    public ProductController(ProductRepository productRepository) {
+        this.productRepository = productRepository;
+    }
+
     @GetMapping()
     @ResponseStatus(HttpStatus.OK) //usado para evitar usar el ResponseStatus<>
     public List<ProductEntity> getAllProducts(){
