@@ -30,7 +30,7 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2021.0.8</spring-cloud.version> <!-- O una versión compatible con tu Spring Boot -->
 	</properties>
-
+<dependencies>
 	<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-gateway-mvc</artifactId>
