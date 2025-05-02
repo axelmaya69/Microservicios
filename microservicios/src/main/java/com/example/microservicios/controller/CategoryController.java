@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 //Refresca todos los datos con la notacion @Value para no tener que estar reiniciando
 //la aplicacion
+
 public class CategoryController {
 
     //inyectando el valor
