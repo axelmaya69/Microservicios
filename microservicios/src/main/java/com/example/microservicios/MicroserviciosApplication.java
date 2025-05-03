@@ -11,7 +11,7 @@ public class MicroserviciosApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MicroserviciosApplication.class, args);
 	}
-	
+
 	//solo habia que recompilar e implementar un mvnclean install
 	//compilar usando java21 de sdk
 
