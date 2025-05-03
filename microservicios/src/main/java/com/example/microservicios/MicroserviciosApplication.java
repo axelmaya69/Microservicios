@@ -14,6 +14,7 @@ public class MicroserviciosApplication {
 	//arreglado
 	//solo habia que recompilar e implementar un mvnclean install
 	//compilar usando java21 de sdk
+	
 	//veridicar puertos de clase microservice application
 
 	//veriicar tambien las colecciones de la base de datos
